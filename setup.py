@@ -5,7 +5,7 @@ version = '0.1'
 
 setup(name='zettwerk.clickmap',
       version=version,
-      description="",
+      description="Adding a simple clickmap/heatmap to plone 4",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
