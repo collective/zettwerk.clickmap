@@ -1,0 +1,17 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="zettwerk.clickmap">
+<body>
+  <div metal:fill-slot="main">
+    <tal:main-macro metal:define-macro="main">
+      <ul>
+	<tal:block tal:repeat="page view/getLoggedPagesOverview">
+	  <li><span tal:content="page/Title" /> - <span tal:content="page/counter" /></li>
+	</tal:block>
+      </ul>
+    </tal:main-macro>
+  </div>
+</body>
+
+</html>

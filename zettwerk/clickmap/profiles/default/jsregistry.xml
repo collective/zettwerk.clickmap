@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts">
+  <javascript
+     cacheable="False"
+     compression="safe"
+     cookable="False"
+     enabled="True"
+     expression=""
+     inline="False"
+     id="++resource++clickmap_javascripts/clickmap.js"
+     />
+  <javascript
+     cacheable="False"
+     compression="safe"
+     cookable="False"
+     enabled="True"
+     expression=""
+     inline="False"
+     id="++resource++clickmap_javascripts/jquery-ui-1.6.custom.min.js"
+     />
+</object>
