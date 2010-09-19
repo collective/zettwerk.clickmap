@@ -21,3 +21,7 @@ Plone compatibility
 
 The actual work is only tested in Plone 4. There is also a Plone 3 version tagged in the svn which should work, but it is not tested with the latest versions. It also contains jquery-ui javascript resources, which are now removed in trunk (and so for Plone 4). (Anyone knows a lightwight drag'n'drop lib for jquery?)
 
+Installation
+============ 
+
+Add zettwerk.clickmap to your buildout eggs. After running buildout and starting the instance, you can install Zettwerk Clickmap via portal_quickinstaller to your plone instance. Switch to the control panel and use the configlet to adapt the settings.

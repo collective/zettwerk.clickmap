@@ -1,7 +1,6 @@
 from zope.i18nmessageid import MessageFactory
 clickmapMessageFactory = MessageFactory('zettwerk.clickmap')
 
-from zettwerk.clickmap import config
 import ClickmapTool
 
 from Products.CMFCore import utils
