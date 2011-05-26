@@ -24,8 +24,8 @@ function collectClickerData(evt) {
        w: is the witdh (inclusive paddings and borders) from #visual-portal-wrapper
      */
     var visual_reference = getVisualReference();
-    return {'x': evt.pageX - visual_reference.offset()['left'],
-	    'y': evt.pageY - visual_reference.offset()['top'],
+    return {'x': parseInt(evt.pageX - visual_reference.offset()['left']),
+	    'y': parseInt(evt.pageY - visual_reference.offset()['top']),
 	    'w': visual_reference.outerWidth()};
 }
 
