@@ -1,4 +1,10 @@
-from zope.app.schema.vocabulary import IVocabularyFactory
+try:
+    #plone <4.1
+    from zope.app.schema.vocabulary import IVocabularyFactory
+except ImportError:
+    #plone >4.1
+    from zope.schema.interfaces import IVocabularyFactory
+
 from zope.interface import implements
 from Products.CMFCore.utils import getToolByName
 from zope.schema.vocabulary import SimpleTerm
