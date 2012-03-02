@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.12'
+version = '0.13dev'
 
 setup(name='zettwerk.clickmap',
       version=version,
